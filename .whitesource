@@ -1,7 +1,8 @@
-##########################################################
-#### WhiteSource "Bolt for Github" configuration file ####
-##########################################################
-
-# Configuration #
-#---------------#
-ws.repo.scan=true
+{
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW"
+  }
+}
